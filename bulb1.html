@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Bulb</title>
+<style>
+    h1{
+        color: blue;
+        font-weight: 800;
+    }
+    h2{
+        color: black;
+        font-weight: bold;
+    }
+</style>
+</head>
+<body>
+    <div><h1 class="text-center">ASSIGNMENT-1 in JS</h1></div>
+
+<div class="container bg-secondary mt-3 text-center">
+    <h2 class="py-3">BULB</h2>
+    <div>
+    <img id="bulb" src="off bulb.png" style="width:300px">
+    </div>
+<button class=" btn btn-success m-3" onclick="document.getElementById('bulb').src='on bulb.png'"> Switch ON</button>
+<button class=" btn btn-danger m-3" onclick="document.getElementById('bulb').src='off bulb.png'"> Switch OFF</button>
+</div>
+
+
+    
+</body>
+</html>
